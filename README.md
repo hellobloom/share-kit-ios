@@ -20,8 +20,8 @@ iOS implementation of [Share Kit](https://github.com/hellobloom/share-kit#readme
 ![deployment-target](images/deployment-target.png)
 
 ### IMPORTANT!  
-2. Because of an embedding issue with Xcode, make sure your Xcode project is one or more directories higher than the `framework` folder, otherwise the embedding step below will fail.
-3. Then add the `sharekit.framework` cocoa touch framework , created above , into your project as embedded binary by doing the following
+- Because of an embedding issue with Xcode, make sure your Xcode project is one or more directories higher than the `framework` folder, otherwise the embedding step below will fail.
+2. Then add the `sharekit.framework` cocoa touch framework , created above , into your project as embedded binary by doing the following
 
 	- Go to your Xcode project targets, select the `General` tab and then scroll down to the `Embedded Binaries` section and click on the '+'' button
 	  ![embedded-binary](images/embed-binary.png)
